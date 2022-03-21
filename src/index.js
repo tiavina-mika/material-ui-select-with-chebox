@@ -1,7 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import SelectWithCheckbox from "./SelectWithCheckbox";
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Demo from './demo';
-
-ReactDOM.render(<Demo />, document.querySelector('#root'));
-    
+ReactDOM.render(<SelectWithCheckbox />, document.querySelector("#root"));
